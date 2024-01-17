@@ -49,7 +49,7 @@
 &kp TAB     &kp Q                 &kp W             &kp E             &kp R               &kp T      &kp Y      &kp U                &kp I              &kp O             &kp P                          &kp BSPC
 &kp ESCAPE  &hrml LEFT_CONTROL A  &hrml LEFT_ALT S  &hrml LEFT_GUI D  &hrml LEFT_SHIFT F  &kp G      &kp H      &hrmr RIGHT_SHIFT J  &hrmr RIGHT_GUI K  &hrmr LEFT_ALT L  &hrmr RIGHT_CONTROL SEMICOLON  &kp SQT
 &kp LSHFT   &kp Z                 &kp X             &kp C             &kp V               &kp B      &kp N      &kp M                &kp COMMA          &kp DOT           &kp FSLH                       &kp RIGHT_SHIFT
-                                                    &kp LGUI          &mo 1               &kp RET    &kp SPACE  &mo 2                &kp RALT
+                                                    &mo 3             &mo 1               &kp RET    &kp SPACE  &mo 2                &mo 4
             >;
         };
 
@@ -61,10 +61,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB     &kp N1      &kp N2        &kp N3        &kp N4        &kp N5          &kp N6     &kp N7    &kp N8    &kp N9     &kp N0  &kp BSPC
-&kp ESCAPE  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &kp LEFT   &kp DOWN  &kp UP    &kp RIGHT  &trans  &trans
-&kp LSHFT   &trans      &trans        &trans        &trans        &trans          &trans     &trans    &trans    &trans     &trans  &trans
-                                      &kp LGUI      &trans        &kp RETURN      &kp SPACE  &trans    &kp RALT
+&kp TAB     &kp N1  &kp N2  &kp N3    &kp N4  &kp N5        &kp N6     &kp N7    &kp N8    &kp N9     &kp N0  &kp BSPC
+&kp ESCAPE  &trans  &trans  &trans    &trans  &trans        &kp LEFT   &kp DOWN  &kp UP    &kp RIGHT  &trans  &trans
+&kp LSHFT   &trans  &trans  &trans    &trans  &trans        &trans     &trans    &trans    &trans     &trans  &trans
+                            &kp LGUI  &trans  &kp RETURN    &kp SPACE  &trans    &kp RALT
             >;
         };
 
@@ -80,6 +80,24 @@
 &kp ESCAPE  &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
 &kp LSHFT   &trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
                               &kp LGUI  &trans    &kp RET      &kp SPACE  &trans     &kp RALT
+            >;
+        };
+
+        workflow_macros {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        misc {
+            bindings = <
+&trans  &trans      &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans      &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                                  &trans        &trans        &trans          &trans  &trans  &trans
             >;
         };
     };
