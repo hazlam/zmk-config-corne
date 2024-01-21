@@ -86,10 +86,10 @@
 
         workflow_macros {
             bindings = <
-&trans  &kp RC(NUMBER_1)  &kp RC(NUMBER_2)  &kp RC(NUMBER_3)  &kp RC(NUMBER_4)  &kp RC(NUMBER_5)    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans            &trans            &trans            &trans            &trans              &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans            &trans            &trans            &trans            &trans              &trans  &trans  &trans  &trans  &trans  &trans
-                                            &trans            &trans            &trans              &trans  &trans  &trans
+&trans  &kp RC(NUMBER_1)  &kp RC(NUMBER_2)  &kp RC(NUMBER_3)  &kp RC(NUMBER_4)  &kp RC(NUMBER_5)    &trans  &trans       &trans           &trans  &trans  &trans
+&trans  &trans            &trans            &trans            &trans            &trans              &trans  &kp RG(TAB)  &kp RG(RS(TAB))  &trans  &trans  &trans
+&trans  &trans            &trans            &trans            &trans            &trans              &trans  &trans       &trans           &trans  &trans  &trans
+                                            &trans            &trans            &trans              &trans  &trans       &trans
             >;
         };
 
