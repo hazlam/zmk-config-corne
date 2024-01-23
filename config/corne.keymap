@@ -50,7 +50,7 @@
 &kp TAB         &kp Q                 &kp W             &kp E             &kp R               &kp T      &kp Y      &kp U                &kp I              &kp O             &kp P                          &kp BSPC
 &lt 5 ESCAPE    &hrml LEFT_CONTROL A  &hrml LEFT_ALT S  &hrml LEFT_GUI D  &hrml LEFT_SHIFT F  &kp G      &kp H      &hrmr RIGHT_SHIFT J  &hrmr RIGHT_GUI K  &hrmr LEFT_ALT L  &hrmr RIGHT_CONTROL SEMICOLON  &kp SQT
 &kp LEFT_SHIFT  &kp Z                 &kp X             &kp C             &kp V               &kp B      &kp N      &kp M                &kp COMMA          &kp DOT           &kp FSLH                       &kp MINUS
-                                                        &mo 2             &mo 1               &kp RET    &kp SPACE  &mo 3                &mo 4
+                                                        &mo 4             &mo 2               &kp RET    &kp SPACE  &mo 1                &mo 3
             >;
         };
 
@@ -86,10 +86,10 @@
 
         workflow_macros {
             bindings = <
-&trans  &kp RC(NUMBER_1)  &kp RC(NUMBER_2)  &kp RC(NUMBER_3)  &kp RC(NUMBER_4)  &kp RC(NUMBER_5)    &trans  &trans       &trans           &trans  &trans  &trans
-&trans  &trans            &trans            &trans            &trans            &trans              &trans  &kp RG(TAB)  &kp RG(RS(TAB))  &trans  &trans  &trans
-&trans  &trans            &trans            &trans            &trans            &trans              &trans  &trans       &trans           &trans  &trans  &trans
-                                            &trans            &trans            &trans              &trans  &trans       &trans
+&trans  &kp RC(NUMBER_1)  &kp RC(NUMBER_2)  &kp RC(NUMBER_3)  &kp RC(NUMBER_4)  &kp RC(NUMBER_5)    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans            &trans            &trans            &trans            &trans              &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans            &trans            &trans            &trans            &trans              &trans  &trans  &trans  &trans  &trans  &trans
+                                            &trans            &trans            &trans              &trans  &trans  &trans
             >;
         };
 
@@ -106,7 +106,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans          &kp PAGE_UP      &kp HOME       &kp END           &kp PAGE_DOWN  &kp DELETE
 &trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW   &kp UP_ARROW   &kp RIGHT_ARROW   &trans         &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans          &kp EXCLAMATION  &kp LESS_THAN  &kp GREATER_THAN  &kp EQUAL      &kp UNDERSCORE
+&trans  &trans  &trans  &trans  &trans  &trans    &trans          &kp EXCLAMATION  &kp LESS_THAN  &kp GREATER_THAN  &kp EQUAL      &trans
                         &trans  &trans  &trans    &trans          &trans           &trans
             >;
         };
