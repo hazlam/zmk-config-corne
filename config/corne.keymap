@@ -104,10 +104,10 @@
 
         text-nav {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans          &kp PAGE_UP     &kp HOME         &kp END          &kp PAGE_DOWN     &kp DELETE
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW     &kp RIGHT_ARROW  &trans            &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans          &trans          &kp EXCLAMATION  &kp LESS_THAN    &kp GREATER_THAN  &kp EQUAL
-                        &trans  &trans  &trans    &trans          &trans          &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans          &kp PAGE_UP      &kp HOME       &kp END           &kp PAGE_DOWN  &kp DELETE
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW   &kp UP_ARROW   &kp RIGHT_ARROW   &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans          &kp EXCLAMATION  &kp LESS_THAN  &kp GREATER_THAN  &kp EQUAL      &trans
+                        &trans  &trans  &trans    &trans          &trans           &trans
             >;
         };
     };
